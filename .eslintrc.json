@@ -19,6 +19,9 @@
     // syntax rules
     "consistent-return": "off",
     "no-lonely-if": "error",
+    "no-param-reassign": "off",
+
+    // import
     "import/extensions": [
       "error",
       "ignorePackages",
@@ -29,6 +32,8 @@
         "tsx": "never"
       }
     ],
+
+    // typescript
     "@typescript-eslint/no-unnecessary-boolean-literal-compare": "error",
     "@typescript-eslint/no-non-null-assertion": "off",
     "@typescript-eslint/no-use-before-define": [
